@@ -9,9 +9,10 @@ namespace App;
 
 
 
+
 use Jenssegers\Mongodb\Eloquent\Model;
 
 class Profile extends Model
 {
-    protected $fillable =['user'];
+    protected $fillable =['name', 'email', 'password'];
 }
